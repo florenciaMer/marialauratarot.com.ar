@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+*{
+	padding: 0;
+	margin:0;
+}
+
+.opacidad{
+    background-color: #750818;
+    border-radius: 2%;
+    opacity: .7;
+    padding: 4px;
+}
+.opacidad_white{
+    background-color: white;
+    border-radius: 2%;
+    opacity: .7;
+    padding: 4px;
+}
+.experiencia{
+    background-image: url("../imgs/quien.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cuadrado_tarot{
+    background-image: url("../imgs/tarot_base.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cuadrado_carta{
+    background-image: url("../imgs/tarot_carta.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.no_dudes{
+    background-image: url("../imgs/tarot_no_dudes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.quien{
+    background-color: #750818;
+    height: 250px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consultame{
+    background-color: #750818;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.medios_contacto{
+    width: 50%;
+    margin: 3%;
+    background-color: white;
+    text-align: center;
+    color: darkred;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+
+.medios_pago{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    color: darkred;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.mobile_container_header{
+    display: none;
+}
+.color_grey{
+    color: #bcbebf;
+}
+.texto_medios_pc{
+    position: relative;
+    left: 31px;
+    top: -22px;
+    font-size: 14px;
+}
+.margin-neg{
+        margin: -25%;
+    }
+
+.sesgado{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+@media (max-width: 575px) {
+    .hidden{
+        display: none;
+    }
+}
+
+@media (min-width: 575px) {
+    .hiddenp{
+        display: none;
+    }
+}
+/* inicio pagina footer*/
+footer{
+    background-color: black;
+    font-family: Arial;
+    padding: 15px;
+
+}
+
+footer .sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer .sociales a{
+    font-size: 30px;
+    color: white;
+    transition: all .5s ease;
+    margin: 4px;
+}
+
+footer .sociales .facebook:hover{
+    transform: scale(1.3,1.3);
+    color: #382CA9;
+}
+
+footer .sociales .twitter:hover{
+    transform: scale(1.3,1.3);
+    color: grey;
+}
+footer .sociales .youtube:hover{
+    transform: scale(1.3,1.3);
+    color: #fd1f1f;
+}
+footer .sociales .instagram:hover{
+    transform: scale(1.3,1.3);
+    color: #532418;
+}
+footer .sociales .snapchat:hover{
+    transform: scale(1.3,1.3);
+    color: #d5ec37;
+}
+
+/* fin footer*/
+.text-align-center{
+    text-align: center;
+}
+.fs-30{
+    font-size: 30px;
+}
+@media (max-width: 480px) {
+      body form form {
+        width: 100%;
+        background: red; }
+    }
+    body form #boton:hover, body form #boton {
+      cursor: pointer; }
+    body form .estiloTextarea {
+      height: 120px; }
+
+
+/*# sourceMappingURL=estilo.css.map */
+
+/* fin form */
+html, body {
+    height: 100%;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fefefe;
+}
+
+
+#footer p {
+    margin: 0;
+}
+
+nav ul li{
+    width: 106px;
+    border-left: 1px solid white;
+}
+nav li{
+    line-height: 2rem;
+    position: relative;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 0 2.5em;
+}
+
+.nav-item .nav-link{
+    text-decoration: none;
+}
+/*primer nivel*/
+nav ul>li{
+    text-align: center;
+    padding: 1px;
+    border-radius: 2px;
+}
+
+.nav-item:hover > a{
+    color: blueviolet;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+/*.nav-item:hover > a{
+    color: orange;
+}*/
+.navbar-brand img{
+    padding: 0;
+}
+
+
+.color-red{
+    color: #750818;
+}
+.h1{
+    color: #750818!important;
+}
+.h3:hover {
+    color: floralwhite;
+    opacity: initial;
+    transition: all 1s ease;
+}
+.pc-d-none{
+    display: none;
+}
+.mobile_border_bottom{
+    display: none;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .btn-burger {
+        margin: 0;
+    }
+    .margin-top-20{
+        margin-top: 20%;
+    }
+    .mobile-d-none{
+        display: none;
+    }
+    .mobile-flex-column{
+        flex-direction: column!important;
+    }
+    .mobile-width-100{
+        width: 100%!important;
+    }
+    .mobile-align-center{
+        align-items: center;
+    }
+    nav ul li{
+        width: 200px;
+    }
+    .borde-sm{
+    border:none;
+    }
+    .gracias{
+        padding: 150px 0 200px 0;
+        font-size: 2rem;
+        color:white;
+        text-align: center;
+    }
+    .contacto{
+        background-image: none;
+        background-color: #e0e0e0;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4096ee+0,4096ee+100&0.36+27,1+100 */
+        background: -moz-radial-gradient(center, ellipse cover, rgba(64,150,238,0.36) 0%, rgba(64,150,238,0.36) 27%, rgba(64,150,238,1) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(64,150,238,0.36) 0%,rgba(64,150,238,0.36) 27%,rgba(64,150,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(64,150,238,0.36) 0%,rgba(64,150,238,0.36) 27%,rgba(64,150,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c4096ee', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    .slide{
+        display: none;
+    }
+    .index-mobile{
+        display: block;
+    }
+    .margin-0{
+        margin: 0;
+    }
+    .padding-28{
+        padding: 28px;
+    }
+    .container-mobile{
+        background-image: url("../img/fondo-index-mobile.jpg");
+    }
+    .col-sm-100{
+        width: 100%;
+    }
+    .margin-top-10{
+        margin-top: 10%;
+    }
+    .medios_contacto {
+        width: 100%!important;
+    }
+    .mobile_view{
+        display: block;
+    }
+    .height180{
+        height: 180px!important;
+    }
+    .mobile_medios_contacto_none{
+        display: none;
+    }
+    .mobile_medios_contacto{
+        margin: 3%;
+        background-color: white;
+        text-align: center;
+        color: darkred;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+        flex-direction: column!important;
+        align-items: center!important;
+        font-size: 20px;
+    }
+    .mobile_medios_contacto ul li p span {
+        font-size: 20px;
+    }
+    .mobile_ul_column{
+        justify-content: space-around!important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile_container_header{
+        display: flex!important;
+        flex-direction: revert!important;
+        justify-content: space-evenly!important;
+    }
+    .mobile_font_size_24{
+        font-size: 24px!important;
+    }
+    .mobile_border_bottom{
+        border-bottom: 1px solid darkgrey;
+    }
+}

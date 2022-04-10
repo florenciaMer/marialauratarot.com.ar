@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2916b77-6f32-4c44-8def-7a07b5877fc8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1p5HARZ8h37xwpYED1Aqo6MDD4T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/htdocs/host" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\clientes\panochi" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2916b77-6f32-4c44-8def-7a07b5877fc8" name="Default Changelist" comment="" />
+      <created>1614465886542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614465886542</updated>
+      <workItem from="1614465887587" duration="1811000" />
+      <workItem from="1614514631297" duration="10695000" />
+      <workItem from="1614866600281" duration="1528000" />
+      <workItem from="1614884762361" duration="1833000" />
+      <workItem from="1614887296012" duration="2182000" />
+      <workItem from="1614912882934" duration="1607000" />
+      <workItem from="1614947224755" duration="6238000" />
+      <workItem from="1614966264883" duration="6431000" />
+      <workItem from="1614990415850" duration="2028000" />
+      <workItem from="1615564190236" duration="10947000" />
+      <workItem from="1615637120116" duration="8663000" />
+      <workItem from="1615650000114" duration="5037000" />
+      <workItem from="1615657451061" duration="5495000" />
+      <workItem from="1615720923374" duration="12552000" />
+      <workItem from="1615812669989" duration="728000" />
+      <workItem from="1615832580885" duration="982000" />
+      <workItem from="1615919765228" duration="7029000" />
+      <workItem from="1615987402683" duration="58000" />
+      <workItem from="1642784318686" duration="3455000" />
+      <workItem from="1642858314646" duration="9304000" />
+      <workItem from="1642886503613" duration="4834000" />
+      <workItem from="1642932471240" duration="10834000" />
+      <workItem from="1643031702586" duration="880000" />
+      <workItem from="1643293941255" duration="2473000" />
+      <workItem from="1643638817484" duration="2058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
